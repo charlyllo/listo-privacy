@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Listo</title>
+  <meta name="description" content="Privacy Policy for Listo - A simple, privacy-focused task management app">
+  <meta name="color-scheme" content="light dark">
+  <style>
+    :root {
+      --bg: #0b0f1a;
+      --fg: #e6eefc;
+      --muted: #a6b4d0;
+      --card: #121828;
+      --brand1: #00A1FC;
+      --brand2: #1656FD;
+      --brand3: #3932FF;
+      --accent: #00A1FC;
+      --border: rgba(255,255,255,0.08);
+      --shadow: rgba(0,0,0,.35);
+    }
+    @media (prefers-color-scheme: light) {
+      :root { 
+        --bg:#ffffff; 
+        --fg:#0b0f1a; 
+        --muted:#334155; 
+        --card:#f8fafc; 
+        --border: rgba(0,0,0,0.08);
+        --shadow: rgba(0,0,0,.1);
+      }
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0; 
+      font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji;
+      background: linear-gradient(135deg, var(--bg), #0e1630 40%, #0b0f1a);
+      color:var(--fg);
+      padding:0;
+    }
+    .wrap{
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      border:1px solid var(--border);
+      border-radius:20px;
+      padding:40px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 10px 30px var(--shadow);
+    }
+    h1{
+      margin-top:0;
+      margin-bottom: 8px;
+      font-size:32px;
+      line-height:1.2;
+      letter-spacing:.2px;
+      background: linear-gradient(90deg, var(--brand1), var(--brand2), var(--brand3));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 18px;
+      margin-bottom: 32px;
+      font-weight: 400;
+    }
+    h2{ 
+      font-size:22px; 
+      margin-top:32px; 
+      margin-bottom: 16px;
+      color: var(--fg);
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 8px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-top: 24px;
+      margin-bottom: 12px;
+      color: var(--fg);
+    }
+    p {
+      margin-bottom: 16px;
+      line-height: 1.7;
+    }
+    ul, ol {
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+    li {
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+    a{ 
+      color: var(--brand1); 
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s ease;
+    }
+    a:hover {
+      border-bottom-color: var(--brand1);
+    }
+    .muted{ 
+      color: var(--muted); 
+      font-size:14px; 
+      margin-bottom: 24px;
+    }
+    .highlight {
+      background: rgba(0, 161, 252, 0.1);
+      padding: 16px;
+      border-radius: 12px;
+      border-left: 4px solid var(--accent);
+      margin: 20px 0;
+    }
+    .highlight p {
+      margin-bottom: 0;
+    }
+    .contact-info {
+      background: rgba(255,255,255,0.02);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      margin-top: 24px;
+    }
+    .last-updated {
+      font-size: 14px;
+      color: var(--muted);
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+    .toc {
+      background: rgba(255,255,255,0.02);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    .toc h3 {
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+    .toc ul {
+      margin-bottom: 0;
+    }
+    .toc a {
+      color: var(--muted);
+    }
+    .toc a:hover {
+      color: var(--brand1);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Listo Task Management App</p>
+      <p class="muted">Last updated: December 19, 2024</p>
+      
+      <div class="highlight">
+        <p><strong>Key Point:</strong> Listo is designed with privacy in mind. We do not collect, store, or transmit any personal data. All your tasks and data remain on your device.</p>
+      </div>
+
+      <div class="toc">
+        <h3>Table of Contents</h3>
+        <ul>
+          <li><a href="#introduction">1. Introduction</a></li>
+          <li><a href="#information-collection">2. Information We Collect</a></li>
+          <li><a href="#data-storage">3. Data Storage and Processing</a></li>
+          <li><a href="#third-party">4. Third-Party Services</a></li>
+          <li><a href="#data-retention">5. Data Retention</a></li>
+          <li><a href="#user-rights">6. Your Rights</a></li>
+          <li><a href="#children-privacy">7. Children's Privacy</a></li>
+          <li><a href="#security">8. Data Security</a></li>
+          <li><a href="#changes">9. Changes to This Policy</a></li>
+          <li><a href="#contact">10. Contact Information</a></li>
+        </ul>
+      </div>
+
+      <h2 id="introduction">1. Introduction</h2>
+      <p>Welcome to Listo, a simple and privacy-focused task management application. This Privacy Policy explains how we handle information when you use our mobile application ("App").</p>
+      <p>We are committed to protecting your privacy and ensuring that your personal information is handled responsibly. This policy describes our practices regarding the collection, use, and disclosure of information in connection with the Listo app.</p>
+
+      <h2 id="information-collection">2. Information We Collect</h2>
+      <h3>2.1 Personal Information</h3>
+      <p><strong>We do not collect any personal information.</strong> Listo is designed to work entirely offline and does not require you to:</p>
+      <ul>
+        <li>Create an account or register</li>
+        <li>Provide your name, email address, or any other personal details</li>
+        <li>Sign in or authenticate with any service</li>
+      </ul>
+
+      <h3>2.2 Task Data</h3>
+      <p>All task-related data you create in the app, including:</p>
+      <ul>
+        <li>Task text and descriptions</li>
+        <li>Task completion status</li>
+        <li>Labels and color preferences</li>
+        <li>Task creation and completion timestamps</li>
+      </ul>
+      <p>This data is stored <strong>exclusively on your device</strong> using your device's local storage capabilities. We have no access to this information.</p>
+
+      <h3>2.3 Technical Information</h3>
+      <p>We do not collect technical information such as:</p>
+      <ul>
+        <li>Device identifiers</li>
+        <li>IP addresses</li>
+        <li>Usage analytics</li>
+        <li>Crash reports</li>
+        <li>Performance metrics</li>
+      </ul>
+
+      <h2 id="data-storage">3. Data Storage and Processing</h2>
+      <h3>3.1 Local Storage Only</h3>
+      <p>All data associated with your use of Listo is stored locally on your device using:</p>
+      <ul>
+        <li><strong>LocalStorage:</strong> For web-based versions of the app</li>
+        <li><strong>Device Storage:</strong> For native mobile app versions</li>
+      </ul>
+      <p>No data is transmitted to our servers or any external systems.</p>
+
+      <h3>3.2 Data Processing</h3>
+      <p>All data processing occurs entirely on your device. This includes:</p>
+      <ul>
+        <li>Task creation, editing, and deletion</li>
+        <li>Label management and color assignment</li>
+        <li>Task completion tracking</li>
+        <li>Data organization and display</li>
+      </ul>
+
+      <h2 id="third-party">4. Third-Party Services</h2>
+      <p>Listo does not integrate with or use any third-party services that would collect your data, including:</p>
+      <ul>
+        <li>Analytics services (Google Analytics, Firebase Analytics, etc.)</li>
+        <li>Advertising networks</li>
+        <li>Social media platforms</li>
+        <li>Cloud storage services</li>
+        <li>User tracking or profiling services</li>
+      </ul>
+      <p>The app operates completely independently without external data transmission.</p>
+
+      <h2 id="data-retention">5. Data Retention</h2>
+      <h3>5.1 Automatic Cleanup</h3>
+      <p>To help manage storage space, the app automatically removes completed tasks that are older than one year. This cleanup process:</p>
+      <ul>
+        <li>Runs automatically every hour</li>
+        <li>Only affects completed tasks</li>
+        <li>Preserves active (incomplete) tasks indefinitely</li>
+        <li>Occurs entirely on your device</li>
+      </ul>
+
+      <h3>5.2 Manual Data Management</h3>
+      <p>You have full control over your data and can:</p>
+      <ul>
+        <li>Delete individual tasks at any time</li>
+        <li>Clear all data by uninstalling and reinstalling the app</li>
+        <li>Export your data (if supported by your device's backup features)</li>
+      </ul>
+
+      <h2 id="user-rights">6. Your Rights</h2>
+      <p>Since we do not collect or process personal data, traditional data subject rights (such as those under GDPR) do not apply. However, you maintain complete control over your data because:</p>
+      <ul>
+        <li><strong>Access:</strong> All your data is accessible through the app interface</li>
+        <li><strong>Correction:</strong> You can edit or modify any task or label directly in the app</li>
+        <li><strong>Deletion:</strong> You can delete individual tasks or all data by uninstalling the app</li>
+        <li><strong>Portability:</strong> Your data remains on your device and can be backed up using your device's standard backup features</li>
+      </ul>
+
+      <h2 id="children-privacy">7. Children's Privacy</h2>
+      <p>Listo is safe for users of all ages, including children under 13. Our privacy practices ensure compliance with applicable children's privacy laws because:</p>
+      <ul>
+        <li>We do not collect any personal information from any user</li>
+        <li>No data is transmitted to external servers</li>
+        <li>No user accounts or registrations are required</li>
+        <li>All data remains under the control of the device owner</li>
+      </ul>
+      <p>Parents and guardians can be confident that their children's use of Listo does not involve any data collection or privacy risks.</p>
+
+      <h2 id="security">8. Data Security</h2>
+      <h3>8.1 Local Security</h3>
+      <p>Your data security depends on your device's security measures:</p>
+      <ul>
+        <li>Device lock screen protection</li>
+        <li>Operating system security features</li>
+        <li>App sandboxing (on mobile devices)</li>
+        <li>Regular device security updates</li>
+      </ul>
+
+      <h3>8.2 No External Vulnerabilities</h3>
+      <p>Since no data is transmitted externally, your information is not vulnerable to:</p>
+      <ul>
+        <li>Network interception</li>
+        <li>Server breaches</li>
+        <li>Third-party data leaks</li>
+        <li>Unauthorized remote access</li>
+      </ul>
+
+      <h2 id="changes">9. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. When we make changes:</p>
+      <ul>
+        <li>We will update the "Last updated" date at the top of this policy</li>
+        <li>Significant changes will be communicated through app updates</li>
+        <li>The updated policy will be available at the same URL</li>
+      </ul>
+      <p>We encourage you to review this policy periodically to stay informed about our privacy practices.</p>
+
+      <h2 id="contact">10. Contact Information</h2>
+      <div class="contact-info">
+        <p>If you have any questions, concerns, or feedback about this Privacy Policy or our privacy practices, please contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:hola@carlyllo.com">hola@carlyllo.com</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/charlyllo/listo" target="_blank" rel="noopener">github.com/charlyllo/listo</a></p>
+        <p>We will respond to your inquiries as promptly as possible.</p>
+      </div>
+
+      <div class="last-updated">
+        <p>This Privacy Policy is effective as of August 26, 2025, and applies to all versions of the Listo application.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
