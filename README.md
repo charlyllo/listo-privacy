@@ -21,4 +21,4 @@ This site is automatically deployed to GitHub Pages when changes are pushed to t
 
 ## Contact
 
-For questions about this privacy policy, please contact: hola@carlyllo.com
+For questions about this privacy policy or general support, please contact: hola@carlyllo.com
